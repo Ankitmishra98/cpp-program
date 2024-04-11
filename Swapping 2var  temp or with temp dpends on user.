@@ -1,0 +1,38 @@
+   //swapping program using third element or not, it's depend on users;
+#include<iostream>
+using namespace std;
+int main(){
+   string a;
+   cout<<"ENTER \"YES\" for using 3rd var OR 'NO' for not to use 3rd var: " ;
+   cin>>a;
+   cout<<"value is "<<a;
+   if(a=="yes"){
+      int b,c, t;
+       cout<<"SO, you have choose swapping using third variable.\n";
+       cout<<"ENTER THE 2 INPUTS.";
+       cin>>b>>c;
+       cout<<"THE VALUES BEFORE SWAPPING: A= "<<b<<" B= "<<c<<"\n";
+       t=c;
+       c=b;
+       b=t;
+       cout<<"THE VALUES AFTER SWAPPING: A= "<<b<<" B= "<<c;   
+   }
+   else if(a=="no"){
+       cout<<" SO, you have choose swapping without using third variable.\n";
+           int d,e;
+        cout<<"ENTER THE 2 INPUTS.";
+        
+         cin>>d>>e;
+        cout<<" THE VALUES BEFORE SWAPPING: A= "<<d<<" B= "<<e;
+
+         d=d+e;
+         e=d-e;
+         d=d-e;
+         cout<<" \nTHE VALUES AFTER SWAPPING: A= "<<d<<" B= "<<e;
+   }
+   
+   else{
+       cout<<" invalid input.";
+   }
+    return 0 ;
+}
