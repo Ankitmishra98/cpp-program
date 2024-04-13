@@ -1,0 +1,21 @@
+// Que: Find area of triangle tr = math.sqrt(s(s-a)(s-b)(s-c) ,s= (a+b+c)/2.
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main(){
+    float s,a,b,c,tr;
+cout<<"ENTER THE SIDE A OF TRIANGLE: ";
+cin>>a;
+cout<<"\nENTER THE SIDE B OF TRIANGLE: ";
+cin>>b;
+cout<<"\nENTER THE SIDE C OF TRIANGLE: ";
+cin>>c;
+s=(a+b+c)/2;
+cout<<"THE S IS: "<<s;
+tr=sqrt(s*(s-a)*(s-b)*(s-c));
+cout<<"\nTHE AREA OF TRIANGLE ACCORDING TO THE FORMULA GIVEN IN QUESTION IS: "<<tr;
+
+
+
+    return 0;
+}
