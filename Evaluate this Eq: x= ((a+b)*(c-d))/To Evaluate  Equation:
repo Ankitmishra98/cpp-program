@@ -1,0 +1,16 @@
+ //Ques Evaluate: x= ((a+b)*(c-d))/(a+d)).
+#include <iostream>
+using namespace std;
+int main() {
+    float a,b,c,d,x;
+    cout<<"ENTER THE VALUE OF A: ";
+    cin>>a;
+    cout<<"\nENTER THE VALUE OF B: ";
+    cin>>b;
+    cout<<"\nENTER THE VALUE OF C: ";
+    cin>>c;
+x=((a+b)*(c-d))/(a+d);
+cout<<"\n THE EQUATION TO EVALUATE IS ((a+b)*(c-d))/(a+d))";
+cout<<"\nTHE VALUE OF X IS : "<<x;
+    return 0;
+}
